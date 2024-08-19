@@ -1,11 +1,9 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./"
   },
   "repository": {
