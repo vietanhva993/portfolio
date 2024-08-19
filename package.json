@@ -5,8 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel index.html --public-url /",
-    "build": "parcel build"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/vietanhva993/portfolio/issues"
   },
-  "homepage": "https://github.com/vietanhva993/portfolio#index.html",
+  "homepage": "https://github.com/vietanhva993/portfolio/src/index.html",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "gh-pages": "^6.1.1",
